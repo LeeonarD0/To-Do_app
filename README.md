@@ -1,4 +1,5 @@
 # To-Do List App
+![To-Do List Preview](assets/ToDoAPPscreenShot.png)
 
 ## Description
 
