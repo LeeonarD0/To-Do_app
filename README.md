@@ -1,5 +1,5 @@
 # To-Do List App
-![To-Do List Preview](assets/ToDoAPPscreenShot.png)
+![To-Do List Preview](src/assets/ToDoAPPscreenShot.png)
 
 ## Description
 
