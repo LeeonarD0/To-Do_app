@@ -1,0 +1,165 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-bottom: 1.5rem;
+  
+}
+
+.header div {
+  display: flex;
+  align-items: center;
+
+}
+
+.taskCreatedDescription{
+  
+  font-weight: bold;
+  color: var(--blue-100); 
+
+  padding-right: .5rem;
+}
+
+.taskDoneDescription {
+  font-weight: bold;
+  color: var(--purple-100);
+
+  padding-right: .5rem;
+}
+
+
+
+.taskCreatedCount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  width: 1.5rem;
+  padding: 2px 8px;
+
+  border-radius: 10px;
+  background: var(--gray-400);
+}
+
+.taskDoneCount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 2px 8px;
+
+  border-radius: 10px;
+  background: var(--gray-400);
+}
+
+.taskListContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+
+  gap: .75rem;
+
+  border-top: 1px solid var(--gray-400);
+  border-radius: 10px;
+} 
+
+.noTaskCreated {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 4rem 0;
+
+  font-size: 1rem;
+  color: var(--gray-300);
+}
+
+.noTaskCreated img {
+  padding-bottom: 1rem;
+}
+
+.noTaskCreated p {
+  font-weight: 400;
+}
+
+.formTask {
+  display: flex;
+  justify-content: center;
+
+  height: 3.375rem;
+  gap: .5rem;
+
+  margin-top: -1.575rem;
+  margin-bottom: 4rem;
+}
+
+.formTask input {
+  width: 39.875rem;
+  padding: 16px;
+
+  background: var(--gray-500);
+  color: var(--gray-100);
+
+  border-radius: 8px;
+  border-style: none;
+}
+
+.formTask input:focus {
+  box-shadow: 0 0 0 1px var(--purple-300);
+}
+
+.formTask .buttonCreate button {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100%;
+ width: 5.6rem;
+
+ font-size: .875rem;
+ gap: 2px;
+ line-height: 1;
+
+ background: var(--blue-300);
+ color: var(--gray-100);
+ border-style: none;
+ border-radius: 8px;
+
+ font-weight: bold;
+
+ transition: .3s; 
+
+ cursor: pointer;
+}
+
+.formTask .buttonCreate button:hover {
+  background-color: var(--blue-100);
+}
+
+.emptyTaskPage {
+  padding-top: 4rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.emptyTaskPageDescription {
+    padding-top: 1rem;
+    font-size: 1rem;
+}
+
+.emptyTaskPageDescription strong {
+  font-weight: bold;
+
+  color: var(--gray-300);
+}
+
+.emptyTaskPageDescription p {
+  font-weight: 300;
+  color: var(--gray-300);
+}

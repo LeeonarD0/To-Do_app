@@ -1,0 +1,74 @@
+.taskItemContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  min-width: 100%;
+  min-height: 4.5rem;
+  padding: 1rem;
+ 
+
+  background: var(--gray-500);
+  border-radius: 8px;
+}
+
+.taskItemContainer button {
+  background: transparent;
+  border: 0;
+  color: var(--gray-400);
+  cursor: pointer;
+  line-height: 0;
+  border: 2px;
+}
+
+.taskItemContainer button:hover {
+  color: var(--dangerColor);
+}
+
+.taskItemDescription {
+  display: flex;
+  align-items: center;
+
+  gap: .75rem;
+
+  font-size: .875rem;
+  color: var(--gray-100);
+}
+
+.taskName {
+  max-width: 39rem;
+}
+
+.buttonWrapper {
+  border-style: none;
+  background: transparent;
+}
+
+.circleIcon {
+  color: var(--blue-100);
+  cursor: pointer;
+  
+  transition: fill .2s;
+}
+
+.checkIcon {
+  width: 1.5rem;
+  height: 1.5rem;
+
+
+  cursor: pointer;
+  fill: var(--purple-300);
+  transition: .2s;
+}
+
+.checkIcon:hover {
+  cursor: pointer;
+  fill: var(--purple-100);
+
+}
+
+.taskNameDone {
+  max-width: 39rem;
+  color: var(--gray-300);
+  text-decoration: line-through;
+}
+
