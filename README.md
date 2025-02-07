@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -48,3 +49,7 @@ export default tseslint.config({
   },
 })
 ```
+=======
+# To-Do_app
+In this project, you will build a simple task management application (to-do list) using React and Vite. The goal is to create a tool where users can easily manage their daily tasks.
+>>>>>>> 8004c0ed471665521436481cba1dafcbe14171de
