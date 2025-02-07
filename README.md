@@ -26,5 +26,5 @@ Throughout this project, you will get a chance to review and apply key React con
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/yourusername/todo-list-app.git
+   gh repo clone LeeonarD0/To-Do_app
 
