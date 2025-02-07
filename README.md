@@ -28,3 +28,6 @@ Throughout this project, you will get a chance to review and apply key React con
    ```bash
    gh repo clone LeeonarD0/To-Do_app
 
+2. Start the project
+   ```bash
+   npm run dev
